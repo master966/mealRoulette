@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>오늘의 식사 룰렛</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="titleBar">
+            <h1>식사 메뉴 룰렛 ~ ! v 0.1</h1>
+        </div>
+        <form name="frm" class="frm">
+            <button type="submit" class="js-draw draw">추첨!</button><br>
+            <input type="checkbox" class="checkbox" name="snack" ><label class="label-basic">간식</label>
+            <input type="checkbox" class="checkbox" name="lunch" ><label class="label-basic">점심</label>
+            <input type="checkbox" class="checkbox" name="dinner" ><label class="label-basic">저녁</label>
+            <input type="checkbox" class="checkbox" name="touchings" ><label class="label-basic">안주</label>
+            <input type="checkbox" class="checkbox" name="midnight" ><label class="label-basic">야식</label>
+        </form>
+        <div class="js-result result"></div>
+        <div class="foot">
+            <span>* 메뉴 리스트는 내맘대로 업데이트 됩니다.</span>
+        </div>
+        <script src="roulette.js"></script>
+    </body>
+</html>

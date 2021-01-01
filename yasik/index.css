@@ -1,0 +1,91 @@
+.draw {
+    width: 10%;
+    height: 60px;
+    font-size: 2em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.checkbox {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.label-basic {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.foot {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #aeaeae;
+    text-align: center;
+}
+
+.foot span {
+    display: block;
+    margin-top: 10px;
+}
+
+.frm {
+    text-align: center;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.titleBar {
+    text-align: center;
+}
+
+.todays {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    position: relative;
+    animation: fadeIn 3s ease-out,
+                earthquake 2s ease-in-out 1s;
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes earthquake {
+    0% {
+        left: -3%;
+    }
+    20% {
+        left: 7%;
+    }
+    40% {
+        left: -12%;
+    }
+    60% {
+        left: 8%;
+    }
+    80% {
+        left: -2%;
+    }
+    100% {
+        left: 0%;
+    }
+}
